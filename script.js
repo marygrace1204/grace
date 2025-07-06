@@ -24,7 +24,7 @@ function typeMessage() {
         charIndex++;
     }
 
-    let typeSpeed = isDeleting ? 50 : 100;
+    let typeSpeed = isDeleting ? 30 : 50;
 
     if (!isDeleting && charIndex === currentMessage.length) {
         typeSpeed = 2000;
@@ -53,7 +53,7 @@ function initSlideshows() {
             slides[currentSlide].classList.remove('active');
             currentSlide = (currentSlide + 1) % slides.length;
             slides[currentSlide].classList.add('active');
-        }, 2000 + (index * 500)); // Stagger the slideshows
+        }, 3000 + (index * 500)); // Stagger the slideshows
     });
 }
 
