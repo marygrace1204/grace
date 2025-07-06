@@ -3,29 +3,6 @@
    - BE RESPONSIBLE SA MGA GAGAWIN NYO MARAMING SALAMAT !! */
 
 /* FONTS !!! */
-@font-face {
-    font-family: 'The Farmer Textured';
-    src: url('TheFarmerTexturedRegular.woff2') format('woff2'),
-        url('TheFarmerTexturedRegular.woff') format('woff'),
-        url('TheFarmerTexturedRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Myfont';
-    src: url('beachday.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Myfont1';
-    src: url('Naluka.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
