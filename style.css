@@ -335,7 +335,14 @@ body {
     z-index: 1;
     max-width: 800px;
     padding: 0 2rem;
+    animation: fadeOut 1s ease 5s forwards
 }
+@keyframe fadeOut { 
+   to { 
+   visibility: hidden;
+   opacity: 0; 
+      {
+   {
 
 .hero h1 {
     font-size: 7rem;
